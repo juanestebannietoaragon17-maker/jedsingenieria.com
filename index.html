@@ -4,16 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JEDS Ingeniería | Refrigeración y Climatización en Cali</title>
-  <meta name="description" content="JEDS Ingeniería: mantenimiento, instalación de aires acondicionados, cuartos fríos y soluciones de refrigeración en Cali. Solicita tu cotización por WhatsApp.">
-  <meta name="keywords" content="refrigeración Cali, aire acondicionado Cali, cuartos fríos, mantenimiento aire acondicionado, JEDS Ingeniería">
+  <meta name="description" content="JEDS Ingeniería: instalación y mantenimiento de cuartos fríos, panelería y aires acondicionados para empresas y negocios en Cali. Solicita tu cotización por WhatsApp.">
+  <meta name="keywords" content="refrigeración Cali, aire acondicionado Cali, cuartos fríos Cali, panelería, mantenimiento aire acondicionado, mantenimiento cuartos fríos, JEDS Ingeniería">
   <meta name="theme-color" content="#061d45">
   <meta property="og:title" content="JEDS Ingeniería | Refrigeración y Climatización">
-  <meta property="og:description" content="Soluciones que mueven tu negocio. Refrigeración, climatización, mantenimiento y cuartos fríos.">
+  <meta property="og:description" content="Soluciones que mueven tu negocio. Cuartos fríos, panelería, climatización y mantenimiento en Cali.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <style>
+    .topbar-inner{flex-wrap:wrap;gap:6px 22px}
+    .b2b{background:#fff}
+    .b2b-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .b2b-card{background:#f7fbff;border:1px solid #e2eaf4;border-top:4px solid #0878df;border-radius:15px;padding:28px}
+    .b2b-card span{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:800;color:#0878df;line-height:1}
+    .b2b-card h3{color:#092653;font-size:1.15rem;margin:8px 0}
+    .b2b-card p{font-size:.9rem;color:#65758d}
+    .sector-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
+    .sector-row span{background:#edf7ff;border:1px solid #d4e8fa;color:#0a2857;font-weight:700;font-size:.82rem;padding:8px 16px;border-radius:999px}
+    .b2b-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .footer-inner{flex-wrap:wrap;align-items:flex-start}
+    .footer-contact a{display:block;color:#fff;text-decoration:none;font-weight:600;margin-top:3px}
+    .footer-inner #year{display:inline;margin:0}
+    @media(max-width:950px){.b2b-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:700px){.hero-content{display:block}.hero-copy{max-width:100%;min-width:0}.hero h1{font-size:3.4rem}.eyebrow{letter-spacing:.12em}.b2b-grid{grid-template-columns:1fr}.b2b-actions{flex-direction:column;align-items:stretch}.footer-inner{flex-direction:column}}
+  </style>
 </head>
 <body>
   <div class="progress-bar" id="progressBar"></div>
@@ -21,7 +40,9 @@
   <div class="topbar">
     <div class="container topbar-inner">
       <span>📍 Cali, Colombia</span>
-      <a href="tel:+573113339254">📞 +57 311 333 9254</a>
+      <a href="tel:+573113339254">📞 311 333 9254</a>
+      <a href="tel:+573116894981">📞 311 689 4981</a>
+      <a href="mailto:administracion@jedsingenieria.com">✉ administracion@jedsingenieria.com</a>
       <a href="https://www.instagram.com/jeds.ingenieria/" target="_blank" rel="noopener">Instagram @jeds.ingenieria</a>
     </div>
   </div>
@@ -32,10 +53,11 @@
       <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
       <nav class="nav-links">
         <a href="#servicios">Servicios</a>
-        <a href="#proyectos">Proyectos</a>
+        <a href="#empresas">Empresas</a>
+        <a href="#proyectos">Trabajos</a>
         <a href="#nosotros">Nosotros</a>
-        <a href="#testimonios">Clientes</a>
-        <a href="#contacto" class="nav-cta">Cotizar ahora</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#cotizador" class="nav-cta">Cotizar ahora</a>
       </nav>
     </div>
   </header>
@@ -81,8 +103,8 @@
           <h2>Tu operación merece <span>frío confiable.</span></h2>
         </div>
         <div class="reveal delay-1">
-          <p class="lead">Ofrecemos soluciones integrales en refrigeración y climatización para hogares, comercios e industria.</p>
-          <p>Nos enfocamos en diagnosticar correctamente, ejecutar con precisión y entregar soluciones que ayuden a que tus equipos trabajen mejor y por más tiempo.</p>
+          <p class="lead">Somos especialistas en refrigeración y climatización para empresas, comercios e industria, y también atendemos hogares.</p>
+          <p>Instalamos y mantenemos cuartos fríos, panelería y aires acondicionados. Nos enfocamos en diagnosticar correctamente, ejecutar con precisión y entregar soluciones que ayuden a que tus equipos trabajen mejor y por más tiempo.</p>
         </div>
       </div>
       <div class="container metrics">
@@ -101,16 +123,38 @@
         <div class="cards">
           <article class="service-card reveal">
             <div class="service-image"><img src="assets/mantenimiento.jpg" alt="Mantenimiento de refrigeración"><span>01</span></div>
-            <div class="card-body"><h3>Mantenimiento</h3><p>Prevención, diagnóstico y optimización para mantener tus equipos en condiciones de trabajo.</p><ul><li>Aires acondicionados</li><li>Cuartos fríos</li><li>Revisión de tarjetas y errores</li><li>Ajuste de presiones</li><li>Limpieza y optimización</li></ul><a class="text-link" href="#cotizador" data-service="Mantenimiento">Cotizar este servicio →</a></div>
+            <div class="card-body"><h3>Mantenimiento</h3><p>Prevención, diagnóstico y optimización para mantener tus equipos en condiciones de trabajo.</p><ul><li>Aires acondicionados</li><li>Cuartos fríos</li><li>Revisión de tarjetas y errores</li><li>Ajuste de presiones</li><li>Limpieza y optimización</li><li>Planes de mantenimiento para empresas</li></ul><a class="text-link" href="#cotizador" data-service="Mantenimiento">Cotizar este servicio →</a></div>
           </article>
           <article class="service-card reveal delay-1">
             <div class="service-image"><img src="assets/cuarto-frio.jpg" alt="Cuarto frío"><span>02</span></div>
-            <div class="card-body"><h3>Cuartos fríos</h3><p>Diseño y ensamblado de soluciones a la medida de las necesidades de almacenamiento y conservación.</p><ul><li>Diseño personalizado</li><li>Instalación de paneles</li><li>Instalación de equipos</li><li>Pruebas y puesta en marcha</li></ul><a class="text-link" href="#cotizador" data-service="Ensamblado de cuarto frío">Cotizar este servicio →</a></div>
+            <div class="card-body"><h3>Cuartos fríos y panelería</h3><p>Diseño y ensamblado de soluciones a la medida de las necesidades de almacenamiento y conservación.</p><ul><li>Diseño personalizado</li><li>Suministro e instalación de panelería</li><li>Instalación de equipos</li><li>Pruebas y puesta en marcha</li></ul><a class="text-link" href="#cotizador" data-service="Ensamblado de cuarto frío">Cotizar este servicio →</a></div>
           </article>
           <article class="service-card reveal delay-2">
             <div class="service-image"><img src="assets/aires.jpg" alt="Instalación de aire acondicionado"><span>03</span></div>
-            <div class="card-body"><h3>Instalación de aires</h3><p>Climatización residencial, comercial e industrial con instalación precisa y asesoría personalizada.</p><ul><li>Instalación residencial</li><li>Instalación comercial</li><li>Instalación industrial</li><li>Asesoría personalizada</li></ul><a class="text-link" href="#cotizador" data-service="Instalación de aires">Cotizar este servicio →</a></div>
+            <div class="card-body"><h3>Instalación de aires</h3><p>Climatización residencial, comercial e industrial con instalación precisa y asesoría personalizada.</p><ul><li>Equipos Split, Cassette, Piso-techo y VRF</li><li>Instalación comercial e industrial</li><li>Instalación residencial</li><li>Asesoría personalizada</li></ul><a class="text-link" href="#cotizador" data-service="Instalación de aires">Cotizar este servicio →</a></div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section b2b" id="empresas">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">PARA EMPRESAS</span><h2>Un aliado técnico para <span>tu operación.</span></h2></div>
+          <p>Atendemos supermercados, restaurantes, plantas de alimentos, bodegas, clínicas, hoteles y oficinas en Cali y alrededores.</p>
+        </div>
+        <div class="b2b-grid">
+          <div class="b2b-card reveal"><span>01</span><h3>Planes de mantenimiento</h3><p>Visitas programadas para tus cuartos fríos y aires, con informe técnico de cada equipo.</p></div>
+          <div class="b2b-card reveal delay-1"><span>02</span><h3>Visita de diagnóstico</h3><p>Revisamos tus equipos y te entregamos un informe con fotos, estado y recomendaciones.</p></div>
+          <div class="b2b-card reveal delay-2"><span>03</span><h3>Atención de fallas</h3><p>Canal directo por WhatsApp para las fallas que no dan espera.</p></div>
+          <div class="b2b-card reveal delay-3"><span>04</span><h3>Cotización formal</h3><p>Propuestas claras e informes técnicos para tu área de compras.</p></div>
+        </div>
+        <div class="sector-row reveal">
+          <span>Supermercados</span><span>Restaurantes</span><span>Alimentos y cárnicos</span><span>Bodegas y logística</span><span>Clínicas</span><span>Hoteles</span><span>Oficinas</span>
+        </div>
+        <div class="b2b-actions reveal">
+          <a class="btn btn-primary" href="https://wa.me/573113339254?text=Hola%20JEDS%20Ingenier%C3%ADa%2C%20quiero%20agendar%20una%20visita%20t%C3%A9cnica%20para%20mi%20empresa." target="_blank" rel="noopener">Agendar visita para mi empresa →</a>
+          <a class="btn btn-back" href="mailto:administracion@jedsingenieria.com?subject=Solicitud%20de%20visita%20t%C3%A9cnica">Escribir al correo</a>
         </div>
       </div>
     </section>
@@ -118,13 +162,13 @@
     <section class="section projects" id="proyectos">
       <div class="container">
         <div class="section-head reveal">
-          <div><span class="section-kicker">TRABAJOS</span><h2>Proyectos y trabajos</h2></div>
-          <p>Una muestra visual de los servicios que podemos desarrollar. Reemplaza estas imágenes por fotografías reales de tus proyectos para aumentar aún más la confianza.</p>
+          <div><span class="section-kicker">TRABAJOS</span><h2>Lo que hacemos</h2></div>
+          <p>Mantenimiento, cuartos fríos y climatización para negocios y empresas de Cali y alrededores.</p>
         </div>
         <div class="project-grid">
-          <button class="project-card large reveal" data-title="Mantenimiento especializado" data-image="assets/mantenimiento.jpg"><img src="assets/mantenimiento.jpg" alt="Proyecto de mantenimiento"><span><small>MANTENIMIENTO</small><strong>Diagnóstico y optimización</strong>Ver proyecto ↗</span></button>
-          <button class="project-card reveal delay-1" data-title="Ensamblado de cuarto frío" data-image="assets/cuarto-frio.jpg"><img src="assets/cuarto-frio.jpg" alt="Proyecto de cuarto frío"><span><small>REFRIGERACIÓN</small><strong>Cuarto frío a medida</strong>Ver proyecto ↗</span></button>
-          <button class="project-card reveal delay-2" data-title="Instalación de climatización" data-image="assets/aires.jpg"><img src="assets/aires.jpg" alt="Proyecto de aire acondicionado"><span><small>CLIMATIZACIÓN</small><strong>Instalación de aire</strong>Ver proyecto ↗</span></button>
+          <button class="project-card large reveal" data-title="Mantenimiento especializado" data-image="assets/mantenimiento.jpg"><img src="assets/mantenimiento.jpg" alt="Mantenimiento de equipos de refrigeración"><span><small>MANTENIMIENTO</small><strong>Diagnóstico y optimización</strong>Ver más ↗</span></button>
+          <button class="project-card reveal delay-1" data-title="Ensamblado de cuarto frío" data-image="assets/cuarto-frio.jpg"><img src="assets/cuarto-frio.jpg" alt="Cuarto frío a medida"><span><small>REFRIGERACIÓN</small><strong>Cuarto frío a medida</strong>Ver más ↗</span></button>
+          <button class="project-card reveal delay-2" data-title="Instalación de climatización" data-image="assets/aires.jpg"><img src="assets/aires.jpg" alt="Instalación de aire acondicionado"><span><small>CLIMATIZACIÓN</small><strong>Instalación de aire</strong>Ver más ↗</span></button>
         </div>
       </div>
     </section>
@@ -137,17 +181,6 @@
           <div class="benefit reveal delay-1"><div class="icon">⚡</div><h3>Respuesta rápida</h3><p>Canal directo para atender tus necesidades.</p></div>
           <div class="benefit reveal delay-2"><div class="icon">⚙</div><h3>A la medida</h3><p>La solución se adapta a tu espacio y operación.</p></div>
           <div class="benefit reveal delay-3"><div class="icon">✓</div><h3>Garantía</h3><p>Compromiso con la calidad de nuestros trabajos.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section testimonials" id="testimonios">
-      <div class="container">
-        <div class="section-head centered reveal"><span class="section-kicker">CONFIANZA</span><h2>Lo que dicen nuestros clientes</h2><p>Espacio preparado para testimonios reales. No usamos reseñas inventadas: agrega aquí comentarios autorizados de tus clientes.</p></div>
-        <div class="testimonial-grid">
-          <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“Excelente atención y muy buen acompañamiento para solucionar nuestra necesidad de climatización.”</p><div><strong>Cliente JEDS</strong><small>Servicio de climatización</small></div></article>
-          <article class="testimonial reveal delay-1"><div class="stars">★★★★★</div><p>“Nos explicaron el proceso, respondieron nuestras dudas y dejaron todo funcionando correctamente.”</p><div><strong>Cliente JEDS</strong><small>Servicio técnico</small></div></article>
-          <article class="testimonial reveal delay-2"><div class="stars">★★★★★</div><p>“La atención fue clara y profesional. Volveríamos a contar con JEDS para nuestros equipos.”</p><div><strong>Cliente JEDS</strong><small>Mantenimiento</small></div></article>
         </div>
       </div>
     </section>
@@ -181,15 +214,15 @@
             <div class="choice-grid">
               <button type="button" class="choice" data-value="Mantenimiento">🔧<strong>Mantenimiento</strong><span>Revisión / reparación</span></button>
               <button type="button" class="choice" data-value="Instalación de aires">❄️<strong>Instalación de aires</strong><span>Residencial / comercial</span></button>
-              <button type="button" class="choice" data-value="Ensamblado de cuarto frío">🧊<strong>Cuarto frío</strong><span>Diseño / instalación</span></button>
+              <button type="button" class="choice" data-value="Ensamblado de cuarto frío">🧊<strong>Cuarto frío / panelería</strong><span>Diseño / instalación</span></button>
               <button type="button" class="choice" data-value="Otro servicio">⚙️<strong>Otro servicio</strong><span>Cuéntanos tu necesidad</span></button>
             </div>
           </div>
           <div class="form-step" data-step="2">
             <small>PASO 2 DE 4</small><h3>¿Para quién es el servicio?</h3>
             <div class="choice-grid two">
+              <button type="button" class="choice" data-value="Comercial / industrial">🏢<strong>Empresa o negocio</strong><span>Comercial / industrial</span></button>
               <button type="button" class="choice" data-value="Residencial">🏠<strong>Residencial</strong><span>Casa o apartamento</span></button>
-              <button type="button" class="choice" data-value="Comercial / industrial">🏢<strong>Comercial / industrial</strong><span>Negocio o empresa</span></button>
             </div>
           </div>
           <div class="form-step" data-step="3">
@@ -220,12 +253,16 @@
 
   <div class="modal" id="projectModal" aria-hidden="true">
     <div class="modal-backdrop" data-close="1"></div>
-    <div class="modal-content"><button class="modal-close" data-close="1">×</button><img id="modalImage" src="" alt=""><div><span class="section-kicker">PROYECTO JEDS</span><h3 id="modalTitle"></h3><p>Agrega aquí la descripción real del proyecto, resultados y ciudad cuando tengas el material fotográfico definitivo.</p><a class="btn btn-primary" href="#cotizador" data-close="1">Quiero un proyecto similar</a></div></div>
+    <div class="modal-content"><button class="modal-close" data-close="1">×</button><img id="modalImage" src="" alt=""><div><span class="section-kicker">JEDS INGENIERÍA</span><h3 id="modalTitle"></h3><p>¿Necesitas un trabajo como este? Cuéntanos tu caso y te preparamos una propuesta a la medida de tu espacio y tu operación.</p><a class="btn btn-primary" href="#cotizador" data-close="1">Cotizar un trabajo similar</a></div></div>
   </div>
 
   <a class="whatsapp-float" href="https://wa.me/573113339254?text=Hola%20JEDS%20Ingenier%C3%ADa%2C%20quiero%20cotizar%20un%20servicio." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">✆<span>WhatsApp</span></a>
 
-  <footer><div class="container footer-inner"><div><strong>JEDS INGENIERÍA</strong><span>Innovación, tecnología y confianza al servicio de la refrigeración.</span></div><div>© <span id="year"></span> JEDS Ingeniería · Cali, Colombia</div></div></footer>
+  <footer id="contacto"><div class="container footer-inner">
+    <div><strong>JEDS INGENIERÍA</strong><span>Refrigeración, cuartos fríos, panelería y climatización en Cali.</span></div>
+    <div class="footer-contact"><a href="tel:+573113339254">📞 311 333 9254</a><a href="tel:+573116894981">📞 311 689 4981</a><a href="mailto:administracion@jedsingenieria.com">✉ administracion@jedsingenieria.com</a><a href="https://www.instagram.com/jeds.ingenieria/" target="_blank" rel="noopener">Instagram @jeds.ingenieria</a></div>
+    <div>© <span id="year"></span> JEDS Ingeniería · Cali, Colombia</div>
+  </div></footer>
   <script src="script.js"></script>
 </body>
 </html>
